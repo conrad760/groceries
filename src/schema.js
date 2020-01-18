@@ -1,19 +1,18 @@
 const { buildSchema } = require("graphql");
 
-// Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
   type Event {
     id: ID!
     title: String!
     description: String
     date: String
-    attendants: [Person!]
+    items: [Grocery!]
   }
 
-  type Person {
+  type Grocery {
     id: ID!
     name: String!
-    age: Int
+    expiration_date: String
   }
 
   type Query {

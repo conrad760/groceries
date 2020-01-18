@@ -1,0 +1,2 @@
+- Design the database where all the things are stored
+- api to let us interact with the database

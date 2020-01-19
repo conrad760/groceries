@@ -74,6 +74,7 @@ app.use(
     context: () => context(req)
   })),
 );
+
 app.get('/playground', expressPlayground({ endpoint: '/graphql' }));
 
 app.listen(4000);

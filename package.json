@@ -23,7 +23,8 @@
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^1.6.1",
     "mongodb": "^3.5.1",
-    "mongodb-memory-server": "^6.2.2"
+    "mongodb-memory-server": "^6.2.2",
+    "mongoose": "^5.8.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"

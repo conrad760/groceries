@@ -1,7 +1,7 @@
+require("dotenv").config();
 const { MongoMemoryServer } = require("mongodb-memory-server");
 const { MongoClient } = require("mongodb");
-
-let database = null;
+let database =  null;
 
 async function startDatabase() {
   const mongo = new MongoMemoryServer();

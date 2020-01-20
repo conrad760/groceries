@@ -9,22 +9,26 @@ I am going to the store and I have a recipe in mind and I know I am going to nee
 
 I am already driving passed a grocery store so I decide to run in and grab milk. When I get home I see that I already had them in the fridge. The milk expired before I could use it all.
 
-Instructions:
-Before getting started make a .env file for dotenv and include the following
+## Instructions:
+
+Before getting started make a grocery/.env file for dotenv and include the following
 
 ```
 //.env
-AUTH0_DOMAIN = <YOUR_AUTH0_DOMAIN>
-API_IDENTIFIER = <YOUR_API_IDENTIFIER>
-
+AUTH0_DOMAIN=<YOUR_AUTH0_DOMAIN>
+API_IDENTIFIER=<YOUR_API_IDENTIFIER>
+MONGO_CONNECT=<YOUR_MONGO_CONNECTION>
 ```
 
 After setting up .env
 
 ```
-npm install
-npm start
+$ npm install
+$ npm start
 ```
+
+If you have docker-compose you may also run `docker-compose up`
+
 
 
 

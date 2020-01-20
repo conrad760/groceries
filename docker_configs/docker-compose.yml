@@ -1,0 +1,19 @@
+version: "3"
+services:
+    backend:
+        container_name: node-web-api
+        restart: always
+        build: ./..
+        ports:
+        - "4000:4000"
+        volumes:
+        - ./..:/api
+        links:
+        - mongo
+    mongo:
+        container_name: mongo
+        image: mongo:4.2
+        ports:
+        - "27017:27017"
+        volumes:
+        - /../data:/data/db

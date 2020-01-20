@@ -11,7 +11,7 @@ I am already driving passed a grocery store so I decide to run in and grab milk.
 
 ## Instructions:
 
-Before getting started make a grocery/.env file for dotenv and include the following
+Before getting started make a groceries/.env file for dotenv and include the following
 
 ```
 //.env
